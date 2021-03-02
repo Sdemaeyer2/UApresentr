@@ -1,0 +1,60 @@
+---
+title: 'Xaringan Template for UAntwerp'
+output:
+  xaringan::moon_reader:
+    css: [default, default-fonts, extra.css]
+    seal: false
+    lib_dir: libs
+    nature:
+      ratio: 16:9
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: title-slide, center, middle
+
+<div class="my-logo-left"> <img src="img/UA-eng-hor-1-RGB.jpg" width="90%"/> </div>
+
+
+# Template for UA slides k
+.font160[
+.SW-greenD[Subtitle]
+]
+Sven De Maeyer
+
+.font80[
+.UA-red[
+2/03/2021
+]
+]
+
+---
+class: inverse-green, center, middle
+
+# An inverse-green slide
+
+all the text is white on a green SW background
+---
+
+#Heading1
+A basic slide with headings and subheadings (up to 3 levels)
+## Heading2
+###Heading3
+---
+class: inverse-blue, center, middle
+
+## An inverse-blue slide
+
+---
+class: inverse-red, center, middle
+
+## An inverse-red slide
+
+---
+
+Some fake code
+
+```{r eval = F}
+hist(cars$speed)
+```
+
